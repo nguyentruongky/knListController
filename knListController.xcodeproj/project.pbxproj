@@ -14,9 +14,6 @@
 		26214EEA22385C1500EEFA06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26214EE822385C1500EEFA06 /* LaunchScreen.storyboard */; };
 		26214EF22238612A00EEFA06 /* knListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214EF12238612A00EEFA06 /* knListView.swift */; };
 		26214EF42238615900EEFA06 /* knView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214EF32238615900EEFA06 /* knView.swift */; };
-		26214EF72238618100EEFA06 /* knController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214EF62238618100EEFA06 /* knController.swift */; };
-		26214EF92238618700EEFA06 /* knConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214EF82238618700EEFA06 /* knConstraints.swift */; };
-		26214EFB2238619000EEFA06 /* knUIMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214EFA2238619000EEFA06 /* knUIMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +26,6 @@
 		26214EEB22385C1500EEFA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26214EF12238612A00EEFA06 /* knListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knListView.swift; sourceTree = "<group>"; };
 		26214EF32238615900EEFA06 /* knView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knView.swift; sourceTree = "<group>"; };
-		26214EF62238618100EEFA06 /* knController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knController.swift; sourceTree = "<group>"; };
-		26214EF82238618700EEFA06 /* knConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knConstraints.swift; sourceTree = "<group>"; };
-		26214EFA2238619000EEFA06 /* knUIMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knUIMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +72,6 @@
 		26214EF52238615D00EEFA06 /* codebase */ = {
 			isa = PBXGroup;
 			children = (
-				26214EFA2238619000EEFA06 /* knUIMaker.swift */,
-				26214EF82238618700EEFA06 /* knConstraints.swift */,
-				26214EF62238618100EEFA06 /* knController.swift */,
 				26214EF32238615900EEFA06 /* knView.swift */,
 				26214EF12238612A00EEFA06 /* knListView.swift */,
 			);
@@ -158,13 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26214EFB2238619000EEFA06 /* knUIMaker.swift in Sources */,
 				26214EE222385C1300EEFA06 /* ViewController.swift in Sources */,
 				26214EE022385C1300EEFA06 /* AppDelegate.swift in Sources */,
 				26214EF22238612A00EEFA06 /* knListView.swift in Sources */,
-				26214EF72238618100EEFA06 /* knController.swift in Sources */,
 				26214EF42238615900EEFA06 /* knView.swift in Sources */,
-				26214EF92238618700EEFA06 /* knConstraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

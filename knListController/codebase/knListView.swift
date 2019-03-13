@@ -67,3 +67,17 @@ class knListController<C: knListCell<U>, U>: knController, UITableViewDataSource
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat { return 0 }
 }
+
+
+class knController : UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .white
+    }
+
+    func setupView() { }
+    func fetchData() { }
+    deinit {
+        print("Deinit \(NSStringFromClass(type(of: self)))")
+    }
+}
